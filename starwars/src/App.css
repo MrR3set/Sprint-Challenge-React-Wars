@@ -6,3 +6,21 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.cards-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  
+}
+
+.cards-wrapper .card-wrapper{
+  width: 24%;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.card-wrapper:hover{
+  transform: scale(1.1);
+}
